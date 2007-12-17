@@ -8,7 +8,6 @@ Source0: %{pkgname}-%{version}.tar.bz2
 License: LGPL
 URL: http://pylirc.sourceforge.net/
 Group: Development/Python
-BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires: lirc-devel
 BuildRequires: python-devel
 
