@@ -3,7 +3,7 @@
 Summary: Python lirc module. 
 Name: python-lirc
 Version: 0.0.5
-Release: %mkrel 1
+Release: %mkrel 3
 Source0: %{pkgname}-%{version}.tar.bz2
 License: LGPL
 URL: http://pylirc.sourceforge.net/
