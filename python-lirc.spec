@@ -1,9 +1,9 @@
 %define pkgname pylirc
 
-Summary: Python lirc module. 
+Summary: Python lirc module
 Name: python-lirc
 Version: 0.0.5
-Release: %mkrel 3
+Release: %mkrel 2
 Source0: %{pkgname}-%{version}.tar.bz2
 License: LGPL
 URL: http://pylirc.sourceforge.net/
@@ -13,7 +13,7 @@ BuildRequires: lirc-devel
 BuildRequires: python-devel
 
 %description
-Python module for lirc support
+Python module for lirc support.
 
 %prep
 %setup -q -n %{pkgname}-%{version}
