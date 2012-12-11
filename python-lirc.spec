@@ -31,3 +31,42 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 
 
+
+
+%changelog
+* Tue Nov 02 2010 Crispin Boylan <crisb@mandriva.org> 0.0.5-4mdv2011.0
++ Revision: 591929
+- Rebuild
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.0.5-3mdv2010.0
++ Revision: 442291
+- rebuild
+
+* Sat Dec 27 2008 Adam Williamson <awilliamson@mandriva.org> 0.0.5-2mdv2009.1
++ Revision: 319621
+- rebuild for python 2.6
+- correct summary and description
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+    - kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Jul 16 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.0.5-1mdv2008.0
++ Revision: 52597
+- update to new version 0.0.5
+
+
+* Thu Dec 14 2006 Nicolas Lécureuil <neoclust@mandriva.org> 0.0.4-5mdv2007.0
++ Revision: 96916
+- Rebuild against new python
+- Import python-lirc
+
+* Tue Jan 10 2006 Frederic Crozat <fcrozat@mandriva.com> 0.0.4-3mdk
+- Rebuild
+
+* Sun Dec 05 2004 Michael Scherer <misc@mandrake.org> 0.0.4-2mdk
+- Rebuild for new python
+
